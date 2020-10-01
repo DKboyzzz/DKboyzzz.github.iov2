@@ -1,0 +1,217 @@
+
+
+body {
+	font-family: Helvetica;
+	background: url("https://i.ibb.co/c8wf6wg/Timesquare1-dkboyzzz.jpg") no-repeat center center 	fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  background-color: #5F5C95;
+  }
+ .body{
+ font-family: Helvetica;
+ 	background-image: url("https://i.ibb.co/c8wf6wg/Timesquare1-dkboyzzz.jpg");
+  background-color: #5F5C95;
+  background-attachment: fixed;
+  }
+.gray_blue_bckgrnd1{
+margin-top: 10px;
+width: 650px;
+height: 820px;
+border: 3px solid #AFADD1;
+border-radius: 10px 10px 10px 10px;
+background-color: rgba(95, 92, 149, 0.95);
+}
+.gray_blue_bckgrnd2{
+margin-top: 10px;
+background-color: rgba(95, 92, 149, 0.95);
+width: 350px;
+height: 820px;
+border: 3px solid #AFADD1;
+border-radius: 10px 10px 10px 10px;
+}
+
+
+h2 {
+ text-align: center;
+ color: white;
+}
+.left{
+margin-right: 10px;
+margin-bottom: 10px;
+float: left;
+}
+img.henri {
+ height: 300px;
+ width: 300px;
+margin-left: 25px;
+margin-top: 10px;
+border-radius: 250px;
+filter: opacity(0.85);
+border: 1px solid black;
+}
+h1{
+font-size: 70px;
+font-family: Arial, Helvetica, sans-serif;
+filter: drop-shadow(0 0 1rem #000662);
+color: white;
+margin-right: 100px;
+}
+.h1_background{
+  background: linear-gradient(45deg, rgba(203, 203, 203, 0.5), rgba(73, 0, 255, 0.5), rgba(203, 203, 203, 0.5));
+  width: 380px;
+  text-align: center;
+  filter: drop-shadow(0 0 1rem #BFBBFF);
+  border-radius: 5px 5px 5px 5px ;
+}
+h6 {
+ color: whitesmoke;
+ margin-top: 0px;
+ font-size: 10px;
+
+ }
+.gray_bckgrnd{
+background-color: rgba(95, 92, 149, 0.95);
+border-radius: 8px 8px 8px 8px;
+border: 3px solid #AFADD1;
+margin-top: 30px;
+}
+.gray_bckgrnd1{
+background-color: rgba(95, 92, 149, 0.95);
+border-radius: 8px 8px 8px 8px;
+border: 3px solid #AFADD1;
+margin-top: 30px;
+padding-bottom: 15px;
+}
+.width1{
+width: 720px;
+}
+.width2{
+width: 650px;
+}
+.top_space{
+margin-top: 45px;
+}
+
+form {
+float:left;
+}
+
+audio{
+margin-top: 20px;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(95, 92, 149, 0.95)0%,rgba(70, 38, 170, 0.95), rgba(95, 92, 149, 0.95)100%);
+  width: 184px;
+  border: 1px solid #AFADD1;
+  border-radius: 5px 5px 5px 5px ;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.topnav a.active {
+  background: linear-gradient(90deg, rgba(20, 17, 65, 0.95)0%,rgba(70, 38, 170, 0.95), rgba(20, 17, 65, 0.95)100%);
+  color: white;
+}
+.topnav a.active:hover{
+  background-color: white;
+  color: black;
+}
+
+.countdown{
+background: linear-gradient(90deg, rgba(20, 17, 65, 0.95)0%,rgba(0, 0, 0, 0.95), rgba(20, 17, 65, 0.95)100% );
+width: 380px;
+text-align: center;
+border-radius: 10px 10px 10px 10px ;
+height: 55px;
+margin-top: 30px;
+border: 3px solid rgba(255, 255, 255, 0.95)
+}
+
+h3{
+font-size: 40px;
+color: #FF0000;
+margin-top: 5px;
+filter: drop-shadow(0 0 1rem rgba(255, 15, 235, 0.5));
+}
+.bigger_home{
+height: 500px;
+width: 500px;
+}
+.bigger_home2{
+  height: 1000px;
+  width: 1000px;
+  
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg,rgba(73, 0, 255, 0.5) ,  rgba(175, 173, 209, 0.5), rgba(73, 0, 255, 0.5) );
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: black;
+ background-color: rgba(255, 255, 255, 0.5)
+}
+.sidenav .closebtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  #main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.span{
+  color: white;
+  background-color: rgba(73, 0, 255, 0.5);
+  border: 1px solid white;
+  
+}
+
+a.link{
+color: black;
+text-align: center;
+margin-left: 170px;
+}
+
